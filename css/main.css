@@ -41,7 +41,45 @@
 4.0 - ELEMENTS 
 -------------------------------------------------------------- */
 
+
+
 /* -- TYPOGRAHPY -- */ 
+
+* {
+	
+	font-family: 'EB Garamond', serif;
+	font-size: 1rem;
+}
+
+h1 {
+	
+	font-size: 3rem;
+	line-height: 1.25em;
+}
+
+h2 {
+	
+	margin-top: 2.5em;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: orangered;
+	
+}
+
+p,a {
+	font-size: 1.5rem;
+	line-height: 1.5em;
+}
+
+li { 
+
+	font-size: 1.25rem;
+	line-height: 1.75em;
+	color: #FF6D70;
+
+}
 
 /* Place media queries under your small viewport size */
 
@@ -56,7 +94,30 @@
 
 @media only screen and (min-width: 1024px)  {
 	
+	h1 {
+		
+		font-size: 4.5rem;
+		line-height: 1em;
+	}
 	
+	h2 {
+		
+		margin-top: 3em;
+	}
+	
+	p  {
+		
+		font-size: 1.5rem;
+		line-height: 1.75em;
+	}
+	
+	li { 
+
+	font-size: 1.5rem;
+	line-height: 1.75em;
+	
+
+}
 }
 
 
@@ -64,3 +125,38 @@
 /*--------------------------------------------------------------
 5.0 - OBJECTS
 -------------------------------------------------------------- */
+
+.wrapper {
+	
+	width: 75%;
+}
+
+@media only screen and (min-width: 768px)  {
+	
+	.wrapper {
+		
+		width: 60%;
+	}
+	
+}
+
+/*large media query size */
+
+@media only screen and (min-width: 1024px)  {
+	
+	.wrapper {
+		
+		width: 50%;
+	}
+	
+}
+
+
+/*--------------------------------------------------------------
+6.0 - COMPONENTS
+-------------------------------------------------------------- */
+
+a {
+	
+	text-decoration: none;
+}
