@@ -81,6 +81,11 @@ li {
 
 }
 
+p:first-of-type {
+	
+	font-size: 1rem;
+}
+
 /* Place media queries under your small viewport size */
 
 /*medium media query size */
